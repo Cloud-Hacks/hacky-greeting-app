@@ -24,9 +24,9 @@ To setup our new pages and add other feats provided by Twilio like voice calls e
 
 # Send message with React and Twilio
 
-This is an example of sending message using React and Twilio. It consists of a `whatsappForm` component that communicates with a server endpoint to [send messages via the Twilio REST API](https://www.twilio.com/docs/sms/send-messages).
+This is an example of sending message using React and Twilio. It consists of a `whatsappForm` component that communicates with a server endpoint to [send messages via the Twilio REST API](https://www.twilio.com/docs/).
 
-To see how to build the project yourself, check out the blog post [How to send an SMS from React with Twilio](https://www.twilio.com/blog/send-an-sms-react-twilio).
+To see how to build the project yourself, check out the blog post [How to send an message from React with Twilio](https://www.twilio.com/whatsapp).
 
 ## Running the project
 
