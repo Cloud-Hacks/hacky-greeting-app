@@ -55,7 +55,12 @@ class SMSForm extends Component {
 
   render() {
     return (
-      <form
+      <div className='sms' style={{
+        backgroundImage:
+          'url(https://mdbcdn.b-cdn.net/img/Photos/Others/pricing-table7.webp)',
+        width: '28rem'
+      }}>
+        <form
         onSubmit={this.onSubmit}
         className={this.state.error ? 'error sms-form' : 'sms-form'}
       >
@@ -66,6 +71,7 @@ class SMSForm extends Component {
             name="to"
             id="to"
             value={this.state.message.to}
+            placeholder='Enter your friends whatsapp number'
             onChange={this.onHandleChange}
           />
         </div>
@@ -76,12 +82,14 @@ class SMSForm extends Component {
             id="body"
             value={this.state.message.body}
             onChange={this.onHandleChange}
+            placeholder='Enter your message here'
           />
         </div>
         <button type="submit" disabled={this.state.submitting}>
           Send message
         </button>
       </form>
+      </div>
     );
   }
 }

@@ -2,8 +2,14 @@
   text-align: left;
   padding: 1em;
 }
+
+.sms {
+  background-color: #282c34;
+}
 .sms-form label {
-  display: block;
+  display:flex;
+  width: 30px;
+  flex-direction: column;
 }
 .sms-form input,
 .sms-form textarea {
@@ -16,7 +22,7 @@
 }
 .sms-form button {
   font-size: 1em;
-  width: 100%;
+  width: 55%;
 }
 .sms-form.error {
   outline: 2px solid #f00;
